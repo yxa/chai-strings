@@ -22,15 +22,20 @@ Tiny Chai.js Extension, it provides a set of string assertions
 Do an `npm install` to get up and running. Then:
 
 ```javascript
-var chai = require("chai");
-var chaiStrings = require("chai-strings");
+var chai 		= require("chai");
+var chaiStrings	= require("chai-strings");
 
 chai.use(chaiStrings);
 ```
 
+### `<script>` tag
 
-### AMD
+If you include Chai Strings directly with a `<script>` tag, after the one for Chai itself, then it will automatically plug in to Chai and be ready for use:
 
+```html
+<script src="chai.js"></script>
+<script src="chai-strings.js"></script>
+```
 
 
 ## License
