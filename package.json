@@ -5,11 +5,14 @@
     "dependencies": {},
     "devDependencies": {
         "mocha": "latest",
-        "chai": "latest"
+        "chai": "latest",
+        "mocha-phantomjs": "2.0.1",
+        "phantomjs": "1.9.0-0"
     },
     "description": "string assertions for chai.js",
     "scripts": {
-        "test": "node_modules/mocha/bin/mocha -R spec"
+        "test": "node_modules/mocha/bin/mocha -R spec --require test/setup",
+        "test-browser": "node_modules/mocha-phantomjs/bin/mocha-phantomjs test/index.html"
     },
     "repository": "",
     "author": "torbjorn.josefsson@gmail.com",

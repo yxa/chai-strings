@@ -1,15 +1,9 @@
-var chai          = require('chai'),
-    chaistrings   = require('../chai-strings'),
-    expect        = chai.expect;
-
-chai.use(chaistrings);
-
-describe('Chai String Assertions Plugin',function() {
+describe('Chai String Assertions Plugin', function() {
 
   it('should check for uppercase correctly',function(done){
     expect('FOO').to.be.uppercase;
     expect('FOOo').to.be.not.uppercase;
-    expect('foo').to.not.be.uppsecase;
+    expect('foo').to.not.be.uppercase;
     done();
   });
 
@@ -40,4 +34,4 @@ describe('Chai String Assertions Plugin',function() {
     done();
   });
 
-});
+})
