@@ -1,0 +1,17 @@
+{
+    "name": "chai-strings",
+    "version": "0.0.1",
+    "private": "true",
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "latest",
+        "chai": "latest"
+    },
+    "description": "string assertions for chai.js",
+    "scripts": {
+        "test": "node_modules/mocha/bin/mocha -R spec"
+    },
+    "repository": "",
+    "author": "torbjorn.josefsson@gmail.com",
+    "license": "MIT"
+}
