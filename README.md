@@ -1,6 +1,6 @@
 # chai-strings
 
-Tiny Chai.js Extension, it provides a set of string assertions
+string assertions for chai.js
 
 ## Assertions
 
@@ -30,7 +30,7 @@ chai.use(chaiStrings);
 
 ### `<script>` tag
 
-If you include Chai Strings directly with a `<script>` tag, after the one for Chai itself, then it will automatically plug in to Chai and be ready for use:
+If you include Chai Strings directly with a `<script>` tag, after the one for Chai itself, then it will automatically plug in to Chai.
 
 ```html
 <script src="chai.js"></script>
@@ -43,7 +43,3 @@ If you include Chai Strings directly with a `<script>` tag, after the one for Ch
 Copyright (c) 2013 Torbjorn Josefsson
 
 MIT License (see the LICENSE file)
-
-[chai]: http://chaijs.com/
-[mocha]: http://visionmedia.github.com/mocha/
-[amd]: https://github.com/amdjs/amdjs-api/wiki/AMD
