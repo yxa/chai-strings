@@ -31,7 +31,7 @@
     );
   });
 
-   Assertion.addProperty('capitalized', function() {
+   Assertion.addProperty('capitalizedFirstLetter', function() {
     var obj = this._obj;
 
     var capitalized = function(target) {
@@ -41,8 +41,8 @@
     new Assertion(obj).to.be.a('string');
     this.assert(
       capitalized(obj),
-      'expected #{this} to be capitalized',
-      'expected #{this} to not be capitalized'
+      'expected first character of #{this} to be capitalized',
+      'expected first charachter of #{this} to not be capitalized'
     );
   });
 

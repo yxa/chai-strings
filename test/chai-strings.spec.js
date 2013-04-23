@@ -15,8 +15,8 @@ describe('Chai String Assertions Plugin', function() {
   });
 
   it('should check for first character capitalized',function(done){
-    expect('Foo').to.be.capitalized;
-    expect('fooO').to.be.not.capitalized;
+    expect('Foo').to.be.capitalizedFirstLetter;
+    expect('fooO').to.be.not.capitalizedFirstLetter;
     done();
   });
 

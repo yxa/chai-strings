@@ -1,10 +1,10 @@
 # chai-strings
 
-string assertions for chai.js
+string assertions for chai.js / use it as a template for your own domain specific assertions
 
 ## Assertions
 
-### `capitalized`
+### `capitalizedFirstLetter`
 
 ### `startWith`
 
@@ -36,7 +36,6 @@ If you include Chai Strings directly with a `<script>` tag, after the one for Ch
 <script src="chai.js"></script>
 <script src="chai-strings.js"></script>
 ```
-
 
 ## License
 
