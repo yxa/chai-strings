@@ -1,6 +1,6 @@
 # chai-strings
 
-string assertions for chai.js / use it as a template for your own domain specific assertions
+ > string assertions for chai.js / use it as a template for your own domain specific assertions
 
 ## Assertions
 
@@ -18,7 +18,7 @@ string assertions for chai.js / use it as a template for your own domain specifi
 ## Installation 
 
 ### Node
-
+Use this plugin as you would all other Chai plugins.
 Do an `npm install` to get up and running. Then:
 
 ```javascript
